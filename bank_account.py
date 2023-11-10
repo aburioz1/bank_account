@@ -5,9 +5,9 @@ import numpy as np
 import sklearn
 import pickle
 
-Financial_inclusion_model = pickle.load(open("C:\\Users\\HP\\Downloads\\Financial_inclusion_model.pkl", "rb"))
+Financial_inclusion_model = pickle.load(open("Financial_inclusion_model.pkl", "rb"))
 st.title("Bank Account Prediction App")
-image = Image.open('C:\\Users\\HP\\Downloads\\pexels-karolina-grabowska-4386158.jpg')
+image = Image.open('pexels-karolina-grabowska-4386158.jpg')
 st.image(image, width= 400)
 def user_report():
     year = st.number_input('year: ',min_value=0)
